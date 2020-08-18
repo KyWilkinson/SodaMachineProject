@@ -8,5 +8,17 @@ namespace SodaMachine
 {
     class Simulation
     {
+        //Member variables
+        public SodaMachine sodaMachine;
+        public Customer customer;
+
+
+        //Constructor
+
+
+
+
+
+        //Memeber methods
     }
 }
