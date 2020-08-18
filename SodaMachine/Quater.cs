@@ -8,5 +8,16 @@ namespace SodaMachine
 {
     class Quater
     {
+        //Member variables
+
+
+
+        //Constructor
+
+
+
+
+
+        //Memeber methods
     }
 }

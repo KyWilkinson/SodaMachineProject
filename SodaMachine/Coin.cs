@@ -8,5 +8,16 @@ namespace SodaMachine
 {
     class Coin
     {
+        //Member variables
+
+
+
+        //Constructor
+
+
+
+
+
+        //Memeber methods
     }
 }

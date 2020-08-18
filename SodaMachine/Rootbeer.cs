@@ -8,5 +8,16 @@ namespace SodaMachine
 {
     class Rootbeer
     {
+        //Member variables
+
+
+
+        //Constructor
+
+
+
+
+
+        //Memeber methods
     }
 }

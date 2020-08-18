@@ -8,5 +8,16 @@ namespace SodaMachine
 {
     class Can
     {
+        //Member variables
+
+
+
+        //Constructor
+
+
+
+
+
+        //Memeber methods
     }
 }

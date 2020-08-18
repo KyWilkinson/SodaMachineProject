@@ -8,5 +8,16 @@ namespace SodaMachine
 {
     class SodaMachine
     {
+        //Member variables
+
+
+
+        //Constructor
+
+
+
+
+
+        //Memeber methods
     }
 }

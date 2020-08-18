@@ -8,5 +8,16 @@ namespace SodaMachine
 {
     class Wallet
     {
+        //Member variables
+
+
+
+        //Constructor
+
+
+
+
+
+        //Memeber methods
     }
 }

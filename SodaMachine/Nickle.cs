@@ -8,5 +8,16 @@ namespace SodaMachine
 {
     class Nickle
     {
+        //Member variables
+
+
+
+        //Constructor
+
+
+
+
+
+        //Memeber methods
     }
 }

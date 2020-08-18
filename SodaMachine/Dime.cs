@@ -8,5 +8,16 @@ namespace SodaMachine
 {
     class Dime
     {
+        //Member variables
+
+
+
+        //Constructor
+
+
+
+
+
+        //Memeber methods
     }
 }

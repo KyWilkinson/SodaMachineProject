@@ -8,5 +8,16 @@ namespace SodaMachine
 {
     class Customer
     {
+        //Member variables
+
+
+
+        //Constructor
+
+
+
+
+
+        //Memeber methods
     }
 }

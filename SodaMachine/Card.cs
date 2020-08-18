@@ -8,5 +8,16 @@ namespace SodaMachine
 {
     class Card
     {
+        //Member variables
+
+
+
+        //Constructor
+
+
+
+
+
+        //Memeber methods
     }
 }
