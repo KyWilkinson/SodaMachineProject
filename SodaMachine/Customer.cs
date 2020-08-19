@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SodaMachine
 {
-    class Customer
+    public class Customer
     {
         //Member variables
         public Wallet wallet;
@@ -14,7 +14,10 @@ namespace SodaMachine
 
 
         //Constructor
-
+        public Customer()
+        {
+           
+        }
 
 
 

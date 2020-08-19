@@ -15,10 +15,10 @@ namespace SodaMachine
 
 
         //Constructor
+        public Coin()
+        {
 
-
-
-
+        }
 
         //Memeber methods
     }

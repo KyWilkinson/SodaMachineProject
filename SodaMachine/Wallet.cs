@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SodaMachine
 {
-    class Wallet
+    public class Wallet
     {
         //Member variables
         public List<Coin> coins = new List<Coin>();
