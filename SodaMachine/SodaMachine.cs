@@ -10,8 +10,8 @@ namespace SodaMachine
     class SodaMachine
     {
         //Member variables
-        public string register = List<Coin>;
-        public string ineventory = List<Can>;
+        public List<Coin> register = new List<Coin>();
+        public List<Can> ineventory = new List<Can>();
 
 
         //Constructor

@@ -9,11 +9,13 @@ namespace SodaMachine
     class Wallet
     {
         //Member variables
-
-
-
+        public List<Coin> coins = new List<Coin>();
+        public Card card = new Card();
         //Constructor
+        public Wallet()
+        {
 
+        }
 
 
 

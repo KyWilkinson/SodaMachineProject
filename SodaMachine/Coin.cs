@@ -9,7 +9,9 @@ namespace SodaMachine
     class Coin
     {
         //Member variables
-
+        protected double value;
+        public double Value;
+        public string name;
 
 
         //Constructor

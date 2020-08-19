@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SodaMachine
 {
-    class Orange_Soda
+    class Orange_Soda : Can
     {
         //Member variables
 
