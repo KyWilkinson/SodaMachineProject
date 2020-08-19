@@ -13,7 +13,10 @@ namespace SodaMachine
 
 
         //Constructor
+        public Orange_Soda()
+        {
 
+        }
 
 
 

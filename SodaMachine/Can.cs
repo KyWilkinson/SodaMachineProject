@@ -16,7 +16,10 @@ namespace SodaMachine
 
 
         //Constructor
+        public Can()
+        {
 
+        }
 
 
 

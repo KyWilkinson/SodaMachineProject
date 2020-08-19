@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SodaMachine
 {
-    class Backpack
+    public class Backpack
     {
         //Member variables
         public List<Can> cans = new List<Can>();
