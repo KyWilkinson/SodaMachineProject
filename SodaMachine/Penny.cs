@@ -15,7 +15,7 @@ namespace SodaMachine
         //Constructor
         public Penny()
         {
-
+            
         }
 
 

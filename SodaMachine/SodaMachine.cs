@@ -10,13 +10,22 @@ namespace SodaMachine
     class SodaMachine
     {
         //Member variables
-
+        public List<Coin> register;
+        public List<Can> inventory;
 
 
         //Constructor
         public SodaMachine()
         {
-            List<Coin> register = new List<Coin>();
+            register = new List<Coin>();
+            
+            inventory = new List<Can>();
         }
+        //member methods
+        public void DisplayInventory()
+        {
+
+        }
+
     }
 }
