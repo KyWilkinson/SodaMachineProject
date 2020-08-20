@@ -9,15 +9,14 @@ namespace SodaMachine
     class Penny : Coin
     {
         //Member variables
-        public string pennyName;
-        public double pennyValue = 0.01;
+
 
 
         //Constructor
         public Penny()
         {
-            pennyName = name;
-            pennyValue = Value;
+            name = "Penny";
+            Value = 0.01;
         }
 
 

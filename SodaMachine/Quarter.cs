@@ -9,15 +9,14 @@ namespace SodaMachine
     class Quarter : Coin
     {
         //Member variables
-        public string quarterName;
-        public double quaterValue;
+
 
 
         //Constructor
         public Quarter()
         {
-            quarterName = name;
-            quaterValue = Value;
+            name = "Quarter";
+            Value = 0.25;
         }
 
 

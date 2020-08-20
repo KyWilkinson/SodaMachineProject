@@ -9,15 +9,15 @@ namespace SodaMachine
     class Nickle : Coin
     {
         //Member variables
-        public string nickleName;
-        public double nickleValue = 0.05;
+
 
 
         //Constructor
         public Nickle()
         {
-            nickleName = name;
-            nickleValue = Value;
+            name = "Nickle";
+            Value = 0.05;
+
         }
 
 
