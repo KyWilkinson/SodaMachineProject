@@ -74,6 +74,37 @@ namespace SodaMachine
                 Orange_Soda orange_Soda = new Orange_Soda();
                 inventory.Add(orange_Soda);
             }
+        }
+        public Can SellSoda()
+        {
+            Console.WriteLine("PLease make you choice");
+             string userInput = Console.ReadLine();
+            if(userInput == "Rootbeer")
+            {
+                Can canToSell = inventory[0];
+                inventory.RemoveAt(0);
+                return canToSell;
+            }
+            else if(userInput == "Cola")
+            {
+                Can canToSell = inventory[0];
+                inventory.RemoveAt(0);
+                return canToSell;
+            }
+            else if(userInput == "Orange Soda")
+            {
+                Can canToSell = inventory[0];
+                inventory.RemoveAt(0);
+                return canToSell;
+            }
+            else
+            {
+                SellSoda();
+                return SellSoda();
+            }
+        }
+        public void Transaction()
+        {
 
         }
 
