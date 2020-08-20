@@ -17,16 +17,25 @@ namespace SodaMachine
         //Constructor
         public SodaMachine()
         {
-            register = new List<Coin>();           
+            register = new List<Coin>();
             inventory = new List<Can>();
         }
         //member methods
         public void DisplayInventory()
         {
-            foreach (  in inventory)
+            foreach (Can can in inventory)
             {
-
+                Console.WriteLine(can.name);
+                Console.WriteLine(can.Cost);
             }
+        }
+        public void FillRegister()
+        {
+         
+        }
+        public void FillInventory()
+        {
+
         }
 
     }
