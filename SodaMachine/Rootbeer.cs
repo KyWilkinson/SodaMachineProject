@@ -15,7 +15,8 @@ namespace SodaMachine
         //Constructor
         public Rootbeer()
         {
-
+            name = "Rootbeer";
+            Cost = 0.60;
         }
 
 
