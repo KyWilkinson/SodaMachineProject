@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
@@ -106,9 +107,37 @@ namespace SodaMachine
                 return SellSoda();
             }
         }
-        public void Transaction()
+        public int InsertCoins()
+        {
+            Console.WriteLine("Insert coins");
+            Console.ReadLine();
+
+        }
+        public void Transaction(Can can, double coin)
         {
 
+            if(can.Cost == coin)
+            {
+                //accept change and dispense soda
+                register.Add(coin);
+
+            }
+            else if (can.Cost < coin)
+            {
+                //accept change dispense and return extra change
+                //if not enough fund in register cancel order and return change
+            }
+
+        }
+        public double DetermineCoinValue(List<Coin> coins)
+        {
+            double sum = 0;
+            for (int i = 0; i < coins.Count; i++)
+            {
+                sum += coins[i].Value;
+                
+            }
+            return sum;
         }
         public int FindCanIndex(string can)
         {
