@@ -57,6 +57,21 @@ namespace SodaMachine
 
         public void FillInventory()
         {
+            for(int i = 0; i < 12; i++)
+            {
+                Rootbeer rootbeer = new Rootbeer();
+                inventory.Add(rootbeer);
+            }
+            for (int i = 0; i < 12; i++)
+            {
+                Cola cola = new Cola();
+                inventory.Add(cola);
+            }
+            for(int i = 0; i < 1; i++)
+            {
+                Orange_Soda orange_Soda = new Orange_Soda();
+                inventory.Add(orange_Soda);
+            }
 
         }
 
