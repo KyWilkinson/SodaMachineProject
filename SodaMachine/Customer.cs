@@ -16,12 +16,15 @@ namespace SodaMachine
         //Constructor
         public Customer()
         {
-           
+            wallet = new Wallet();
+            backPack = new Backpack();
         }
 
 
 
 
         //Memeber methods
+
+
     }
 }
