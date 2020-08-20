@@ -39,6 +39,7 @@ namespace SodaMachine
             WelcomeMessage();
             //display soda machine options
             sodaMachine.DisplayInventory();
+            Can canToSell = sodaMachine.SellSoda();
             //make choice
             //insert money for choice
             //check inventory

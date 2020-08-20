@@ -81,20 +81,23 @@ namespace SodaMachine
              string userInput = Console.ReadLine();
             if(userInput == "Rootbeer")
             {
-                Can canToSell = inventory[0];
-                inventory.RemoveAt(0);
+                int rbIndex = FindCanIndex(userInput);
+                Can canToSell = inventory[rbIndex];
+                inventory.RemoveAt(rbIndex);
                 return canToSell;
             }
             else if(userInput == "Cola")
             {
-                Can canToSell = inventory[0];
+                int colaIndex = FindCanIndex(userInput);
+                Can canToSell = inventory[colaIndex];
                 inventory.RemoveAt(0);
                 return canToSell;
             }
             else if(userInput == "Orange Soda")
             {
-                Can canToSell = inventory[0];
-                inventory.RemoveAt(0);
+                int osIndex = FindCanIndex(userInput);
+                Can canToSell = inventory[osIndex];
+                inventory.RemoveAt(osIndex);
                 return canToSell;
             }
             else
@@ -107,6 +110,20 @@ namespace SodaMachine
         {
 
         }
+        public int FindCanIndex(string can)
+        {
+           
+            for (int i = 0; i < inventory.Count; i++)
+            {
+                if (inventory[i].name == can)
+                {
+                    return i;
+                }
+            }
+            return -1;
+        }
+
+        //function that takes in a string canName and returns the index value of the first can in the invetonry whose name matches that string
 
     }
 }
