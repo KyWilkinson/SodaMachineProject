@@ -24,7 +24,10 @@ namespace SodaMachine
         //member methods
         public void DisplayInventory()
         {
+            foreach (  in inventory)
+            {
 
+            }
         }
 
     }

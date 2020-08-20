@@ -53,7 +53,7 @@
     <Compile Include="Nickle.cs" />
     <Compile Include="Orange Soda.cs" />
     <Compile Include="Penny.cs" />
-    <Compile Include="Quater.cs" />
+    <Compile Include="Quarter.cs" />
     <Compile Include="Rootbeer.cs" />
     <Compile Include="Simulation.cs" />
     <Compile Include="Program.cs" />

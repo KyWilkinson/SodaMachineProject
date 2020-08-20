@@ -6,16 +6,18 @@ using System.Threading.Tasks;
 
 namespace SodaMachine
 {
-    class Quater : Coin
+    class Quarter : Coin
     {
         //Member variables
-
+        public string quarterName;
+        public double quaterValue;
 
 
         //Constructor
-        public Quater()
+        public Quarter()
         {
-
+            quarterName = name;
+            quaterValue = Value;
         }
 
 
