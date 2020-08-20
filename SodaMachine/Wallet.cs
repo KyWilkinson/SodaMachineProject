@@ -46,5 +46,6 @@ namespace SodaMachine
                 coins.Add(penny);
             }
         }
+
     }
 }

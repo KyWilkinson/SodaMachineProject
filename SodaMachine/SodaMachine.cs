@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace SodaMachine
 {
-    class SodaMachine
+    public class SodaMachine
     {
         //Member variables
         public List<Coin> register;
@@ -20,6 +20,8 @@ namespace SodaMachine
         {
             register = new List<Coin>();
             inventory = new List<Can>();
+            FillRegister();
+            FillInventory();
         }
         //member methods
         public void DisplayInventory()

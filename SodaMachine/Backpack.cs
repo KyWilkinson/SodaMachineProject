@@ -9,13 +9,13 @@ namespace SodaMachine
     public class Backpack
     {
         //Member variables
-        public List<Can> cans = new List<Can>();
+        public List<Can> cans;
 
 
         //Constructor
         public Backpack()
         {
-
+            cans = new List<Can>();
         }
 
 
